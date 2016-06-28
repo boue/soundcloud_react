@@ -1,3 +1,6 @@
+// The Provider from react-redux helps us to make the store 
+// and its functionalities available in all child components.
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
