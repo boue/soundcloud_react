@@ -5,6 +5,7 @@ function Stream({ tracks = [], onAuth }) {
   return (
     <div>
       <div>
+        <div>{user.username}</div>
         <button onClick={onAuth} type="button">Login</button>
       </div>
       <br />
